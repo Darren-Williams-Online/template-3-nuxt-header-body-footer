@@ -1,0 +1,25 @@
+{
+  "pageId": "homepage",
+  "title": "Template 1: Body Only Layout",
+  "description": "A minimal single-section layout focusing entirely on content",
+  "layout": "body-only",
+  "seo": {
+    "title": "Template 1: Body Only Layout",
+    "description": "A minimal single-section layout focusing entirely on content",
+    "ogTitle": "Template 1: Body Only Layout",
+    "ogDescription": "A minimal single-section layout focusing entirely on content",
+    "ogImage": "/og-template-1.jpg"
+  },
+  "components": [
+    {
+      "componentId": "main-content-default",
+      "order": 1,
+      "props": {
+        "title": "Template 1: Body Only",
+        "content": "This template focuses entirely on content with no header or footer distractions. Perfect for landing pages, documentation, or content-first experiences.",
+        "ctaText": "View Demo Page",
+        "ctaLink": "/user-pages/demo"
+      }
+    }
+  ]
+}

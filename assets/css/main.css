@@ -1,0 +1,41 @@
+/* Custom CSS for Template 2 - Header + Body Layout */
+
+/* Custom component styles */
+.dynamic-component-wrapper {
+  margin-bottom: 1rem;
+}
+
+/* Ensure user content doesn't break layout */
+.component-preview * {
+  max-width: 100%;
+  word-wrap: break-word;
+}
+
+/* Custom scrollbar for code blocks */
+pre::-webkit-scrollbar {
+  height: 6px;
+}
+
+pre::-webkit-scrollbar-track {
+  background: #1f2937;
+}
+
+pre::-webkit-scrollbar-thumb {
+  background: #4b5563;
+  border-radius: 3px;
+}
+
+pre::-webkit-scrollbar-thumb:hover {
+  background: #6b7280;
+}
+
+/* Animation for loading states */
+.fade-enter-active,
+.fade-leave-active {
+  transition: opacity 0.3s ease;
+}
+
+.fade-enter-from,
+.fade-leave-to {
+  opacity: 0;
+}

@@ -1,0 +1,43 @@
+{
+  "componentId": "header-default",
+  "componentName": "Default Header",
+  "componentType": "header",
+  "status": "active",
+  "content": {
+    "title": "Your Site Title",
+    "subtitle": "Your tagline or description goes here",
+    "logo": "/icons/logo.svg",
+    "navigation": [
+      { "label": "Home", "href": "/" },
+      { "label": "About", "href": "/about" },
+      { "label": "Services", "href": "/services" },
+      { "label": "Contact", "href": "/contact" }
+    ]
+  },
+  "styling": {
+    "classes": "bg-white shadow-sm border-b border-gray-200",
+    "titleClasses": "text-xl font-bold text-gray-800",
+    "subtitleClasses": "text-sm text-gray-600",
+    "mobileButtonClasses": "text-gray-600 hover:text-gray-900",
+    "mobileMenuClasses": "bg-gray-50",
+    "mobileNavClasses": "text-gray-600 hover:text-gray-900 hover:bg-gray-100",
+    "navLink": {
+      "base": "text-gray-600 hover:text-gray-900 transition-colors",
+      "themes": {
+        "template1": "text-gray-600 hover:text-gray-900",
+        "template2": "text-blue-100 hover:text-white",
+        "template3": "text-indigo-100 hover:text-white",
+        "template4": "text-purple-100 hover:text-white",
+        "template5": "text-green-100 hover:text-white",
+        "template6": "text-orange-100 hover:text-white",
+        "template7": "text-red-100 hover:text-white"
+      }
+    }
+  },
+  "imageConfig": {
+    "s3BaseUrl": "https://client-assets.yourdomain.com",
+    "localIconsPath": "/icons/",
+    "allowedLocalFormats": [".svg"],
+    "s3ImageFormats": [".jpg", ".jpeg", ".png", ".webp", ".gif"]
+  }
+}

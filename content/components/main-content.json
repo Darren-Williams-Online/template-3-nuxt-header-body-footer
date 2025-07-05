@@ -1,0 +1,69 @@
+{
+  "componentId": "main-content-default",
+  "componentName": "Default Main Content",
+  "componentType": "main",
+  "status": "active",
+  "content": {
+    "type": "hero",
+    "title": "Welcome to Your Site",
+    "subtitle": "Create amazing experiences with our template system",
+    "description": "This is your main content area. Replace this placeholder text with your actual content. You can easily customize the layout, colors, and content through our JSON configuration system.",
+    "backgroundImage": "hero-background.jpg",
+    "cta": {
+      "text": "Get Started",
+      "link": "/get-started"
+    },
+    "secondaryCta": {
+      "text": "Learn More",
+      "link": "/about"
+    },
+    "features": [
+      {
+        "title": "Easy Customization",
+        "description": "Modify content and styling through simple JSON files",
+        "icon": "/icons/customization.svg"
+      },
+      {
+        "title": "Responsive Design",
+        "description": "Looks great on all devices and screen sizes",
+        "icon": "/icons/responsive.svg"
+      },
+      {
+        "title": "Fast Performance",
+        "description": "Optimized for speed with static generation",
+        "icon": "/icons/performance.svg"
+      }
+    ]
+  },
+  "styling": {
+    "containerClasses": "relative",
+    "titleClasses": "text-4xl md:text-5xl font-bold text-white mb-6",
+    "subtitleClasses": "text-xl md:text-2xl text-gray-200 max-w-3xl mx-auto mb-4",
+    "descriptionClasses": "text-lg text-gray-300 max-w-2xl mx-auto mb-8",
+    "ctaClasses": "inline-block bg-blue-600 text-white px-8 py-3 rounded-lg hover:bg-blue-700 transition-colors font-semibold",
+    "secondaryCtaClasses": "inline-block border-2 border-white text-white px-8 py-3 rounded-lg hover:bg-white hover:text-gray-800 transition-colors font-semibold",
+    "gridClasses": "grid grid-cols-1 md:grid-cols-3 gap-8 mt-16",
+    "featureCardClasses": "bg-white bg-opacity-90 p-6 rounded-lg shadow-lg backdrop-blur-sm",
+    "featureTitleClasses": "text-lg font-semibold text-gray-800 mb-3",
+    "featureDescClasses": "text-gray-600",
+    "themes": {
+      "template1": {
+        "titleClasses": "text-4xl font-bold text-gray-800 mb-6",
+        "subtitleClasses": "text-xl text-gray-600 max-w-3xl mx-auto mb-4",
+        "descriptionClasses": "text-lg text-gray-700 max-w-2xl mx-auto mb-8"
+      },
+      "template2": {
+        "containerClasses": "bg-blue-50 py-16"
+      },
+      "template3": {
+        "containerClasses": "bg-indigo-50 py-16"
+      }
+    }
+  },
+  "imageConfig": {
+    "s3BaseUrl": "https://client-assets.yourdomain.com",
+    "localIconsPath": "/icons/",
+    "allowedLocalFormats": [".svg"],
+    "s3ImageFormats": [".jpg", ".jpeg", ".png", ".webp", ".gif"]
+  }
+}

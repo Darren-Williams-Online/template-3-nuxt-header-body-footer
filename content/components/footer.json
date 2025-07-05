@@ -1,0 +1,68 @@
+{
+  "componentId": "footer-default",
+  "componentName": "Default Footer",
+  "componentType": "footer",
+  "status": "active",
+  "content": {
+    "companyName": "Your Company Name",
+    "description": "A brief description of your company and what you do. This helps visitors understand your business better.",
+    "logo": "/icons/logo.svg",
+    "quickLinks": [
+      { "label": "Home", "href": "/" },
+      { "label": "About", "href": "/about" },
+      { "label": "Services", "href": "/services" },
+      { "label": "Contact", "href": "/contact" },
+      { "label": "Privacy Policy", "href": "/privacy" },
+      { "label": "Terms of Service", "href": "/terms" }
+    ],
+    "contact": {
+      "email": "info@yourcompany.com",
+      "phone": "(555) 123-4567",
+      "address": "123 Business St, City, State 12345"
+    },
+    "socialMedia": [
+      {
+        "platform": "Facebook",
+        "url": "https://facebook.com/yourcompany",
+        "icon": "/icons/facebook.svg"
+      },
+      {
+        "platform": "Twitter",
+        "url": "https://twitter.com/yourcompany",
+        "icon": "/icons/twitter.svg"
+      },
+      {
+        "platform": "LinkedIn",
+        "url": "https://linkedin.com/company/yourcompany",
+        "icon": "/icons/linkedin.svg"
+      }
+    ],
+    "copyrightText": "All rights reserved."
+  },
+  "styling": {
+    "classes": "bg-gray-800 text-white",
+    "companyNameClasses": "text-lg font-semibold text-white mb-4",
+    "descriptionClasses": "text-gray-300",
+    "sectionTitleClasses": "text-md font-semibold mb-4 text-white",
+    "linkClasses": "text-gray-300 hover:text-white transition-colors",
+    "contactClasses": "text-gray-300",
+    "socialLinkClasses": "text-gray-300 hover:text-white transition-colors",
+    "borderClasses": "border-gray-700",
+    "copyrightClasses": "text-gray-400",
+    "themes": {
+      "template1": "bg-gray-800 text-white",
+      "template2": "bg-blue-800 text-white",
+      "template3": "bg-indigo-800 text-white",
+      "template4": "bg-purple-800 text-white",
+      "template5": "bg-green-800 text-white",
+      "template6": "bg-orange-800 text-white",
+      "template7": "bg-red-800 text-white"
+    }
+  },
+  "imageConfig": {
+    "s3BaseUrl": "https://client-assets.yourdomain.com",
+    "localIconsPath": "/icons/",
+    "allowedLocalFormats": [".svg"],
+    "s3ImageFormats": [".jpg", ".jpeg", ".png", ".webp", ".gif"]
+  }
+}
