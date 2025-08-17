@@ -1,0 +1,19 @@
+version: 0.2
+phases:
+  install:
+    runtime-versions:
+      nodejs: 20
+    commands:
+      - npm ci
+  build:
+    commands:
+      - echo "Build phase (optional: npm run build for local test)"
+  post_build:
+    commands:
+      # Remove node_modules for smaller zip (optional)
+      - rm -rf node_modules
+      # Zip the entire source, excluding unnecessary files
+      - zip -r build_artifact.zip . -x "node_modules/*" ".git/*" "dist/*" ".output/*" "*.log"
+artifacts:
+  files:
+    - build_artifact.zip
